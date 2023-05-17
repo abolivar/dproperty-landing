@@ -1,22 +1,33 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-/* #e5af38 */
+
 :root {
   --palette-1: #000000;
-
-
   --palette-2: #e5af38;
-
-
   --palette-3: #444444;
-
-
   --palette-4: #03A6A6;
-
-
   --palette-5: #04BFAD;
+}
 
+.text-palette1 {
+  color: var(--palette-1);
+}
+
+.text-palette2 {
+  color: var(--palette-2) !important;
+}
+
+.text-palette3 {
+  color: var(--palette-3);
+}
+
+.text-palette4 {
+  color: var(--palette-4);
+}
+
+.text-palette5 {
+  color: var(--palette-5);
 }
 
 body {
